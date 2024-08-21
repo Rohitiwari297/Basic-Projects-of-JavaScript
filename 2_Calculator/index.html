@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web App</title>
+    
+    <!-- Adding CSS file link here  -->
+    <link rel="stylesheet" href="/index.css">
+    
+</head>
+<body>
+
+<!-- Index/Landing Page -->
+<div id="indexPage">
+    <input type="text" id="companyName" placeholder="Search by company name">
+    <input type="text" id="industry" placeholder="Search by industry">
+    <button onclick="searchCompanies()">Search</button>
+    <a href="/login">Login</a>
+</div>
+
+<!-- Login Modal -->
+<div id="loginModal">
+    <form action="">
+        
+    </form>
+</div>
+
+<!-- Candidate Home -->
+<div id="candidateHome">
+    <div class="card">
+        <!-- Referral list -->
+    </div>
+    <div class="card">
+        <!-- Candidate services -->
+    </div>
+    <input type="text" id="searchReferral" placeholder="Search by referral ID">
+    <input type="text" id="searchService" placeholder="Search by service ID">
+    <button onclick="searchCandidate()">Search</button>
+    <button onclick="logout()">Logout</button>
+</div>
+
+
+</body>
+</html>

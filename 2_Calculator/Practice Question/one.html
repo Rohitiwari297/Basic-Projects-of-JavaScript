@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        //Practice problem - 1.
+        //Question - Creat an array of number and take input forn the user to add numberto this array.
+
+
+        // let arr = [1,2,3,4,5,6,8]
+
+        // let userArr = prompt("Enter a number")
+
+        // arr.push(userArr)
+
+        // document.write(arr)
+
+
+        //Practice problem - 2.
+        //Question - Keep adding number to the array in (1) nutil "0" is added to the array.
+        
+        // let arr = [1,2,3,4,5,6,8]
+        // let userArr; 
+
+        // do {
+        //     userArr = prompt("Enter a number")
+        //     arr.push(userArr)
+        // }while (userArr != 0)
+
+        // document.write(arr)
+
+
+
+         //Practice problem - 3.
+        //Question -Filter for number divisible by 10 from a given array.
+
+        // let arr = [15,20,35,40,55,60,85]
+        // let userInput = prompt('Enter a number')
+
+        // let divisibleNumberIs = arr.filter((el)=>{
+        //     return el % userInput == 0
+        // });
+        
+        // document.write(divisibleNumberIs)
+
+
+
+        //Practice problem - 4.
+        //Question -Create an array of Square of given nuumber.
+
+        // let arr = [1,2,3,4,5,6,8]
+        // let SquaredArr = arr.map((el) => el * el )
+
+        // document.write(SquaredArr)
+
+
+
+        //Practice problem - 5.
+        //Question -
+
+        // let arr = [1,2,3,4,5]
+        // let factorialArr = arr.reduce((el1 , el2) => el1 * el2)
+
+        // document.write(factorialArr)
+
+
+
+
+     // Some other way to solue same question number (5)   
+
+        let value = prompt("Enter a number")
+
+        
+        function factorial(n) {
+            if (n == 0) {
+                return 0;
+                    } else if(n == 0){
+                            return 0;
+                            }else {
+                                return n * factorial(n-1);
+                                }
+        }
+
+    document.write(factorial(value));
+
+
+
+   
+
+    </Script>
+</body>
+</html>
